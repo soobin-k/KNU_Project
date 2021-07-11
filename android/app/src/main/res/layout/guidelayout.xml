@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/logCatcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"/>
+    <Button
+        android:id="@+id/btn_search"
+        android:onClick="onClickButtonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="@drawable/bluetooth"/>
+    <Button
+        android:id="@+id/btn_paired"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:onClick="onClickButtonPaired"
+        android:background="@drawable/device"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="@drawable/secondimage2"/>
+
+
+</LinearLayout>

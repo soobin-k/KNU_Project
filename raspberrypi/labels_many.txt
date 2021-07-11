@@ -1,0 +1,8 @@
+sign
+arrow_up
+arrow_down
+arrow_next
+arrow_next
+arrow_uturn
+arrow_diagonal_left
+arrow_diagonal_right

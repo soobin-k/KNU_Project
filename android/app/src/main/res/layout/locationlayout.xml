@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/locationInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#8dbc62"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/searchResult"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#8dbc62"
+        android:gravity="center"
+        android:padding="9dp"
+        android:textColor="#fff" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <net.daum.mf.map.api.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|bottom"
+            android:gravity="center"
+            android:padding="30dp"
+            android:background="#00ff0000"
+            android:textColor="#fff" />
+    </FrameLayout>
+
+</LinearLayout>
