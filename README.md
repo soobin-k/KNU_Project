@@ -78,7 +78,7 @@
 
 : 카메라를 통해 영상을 촬영하면서 실시간으로 지하철 내 안내 표지판, 화살표, 문자를 인식하여 경로 정보를 생성하고 음성으로 알려준다.
 
-<img src="https://user-images.githubusercontent.com/77331348/147336544-c06b2b53-172a-4703-91a1-6f265870decc.png" width="450"> <img src="https://user-images.githubusercontent.com/77331348/147336547-149e1b47-60a5-44cb-a3bd-5c0e1b4f10f5.png" width="400">
+<img src="https://user-images.githubusercontent.com/77331348/147336544-c06b2b53-172a-4703-91a1-6f265870decc.png" width="400"> <img src="https://user-images.githubusercontent.com/77331348/147336547-149e1b47-60a5-44cb-a3bd-5c0e1b4f10f5.png" width="350">
 ```
 ① 라즈베리 파이에 부착된 카메라를 통해 지하철 내부 영상을 촬영
 ② 지하철 안내 표지판, 화살표 인식
@@ -95,7 +95,7 @@
 
 : 지하철 탑승 시에는 GPS를 통해 현재 자신의 위치를 파악하고 자신의 위치에서 가장 가까운 역을 음성으로 알려준다.
 
-<img src="https://user-images.githubusercontent.com/77331348/147336551-9c8f71f5-a855-443a-9362-06a57b883f99.png" width="400">
+<img src="https://user-images.githubusercontent.com/77331348/147336551-9c8f71f5-a855-443a-9362-06a57b883f99.png" width="350">
 
 ```
 ① GPS로 현재 자신의 위치를 파악
